@@ -3,7 +3,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\{InfoController};
 // use App\Http\Controllers\Auth\{LoginController, RegisterController};
 
-Route::get('/',  [InfoController::class, "Home"])->name('Web.HomeInfo');
+Route::get('/',  [InfoController::class, "PreHome"])->name('Web.PreHome');
 Route::get('/companys',  [InfoController::class, "Companys"])->name('Web.CompanysInfo');
 Route::get('/users',  [InfoController::class, "Users"])->name('Web.UsersInfo');
 Route::get('/subscriptions',  [InfoController::class, "Subscriptions"])->name('Web.SubscriptionsInfo');
@@ -25,7 +25,7 @@ Route::get('/ambassador',  [InfoController::class, "Ambassador"])->name('Web.Amb
 //     Route::get('/vergueriasAdmin', [AdminController::class, 'VergueriasIndex'])->name('Web.VergueriasAdmins');
 //     Route::get('/register', [RegisterController::class, "showRegistrationForm"])->name('register');
 //     Route::post('/register', [RegisterController::class, "register"]);
-    
+
 //     Route::get('/contenidoAdmin', [AdminController::class, 'ContenidoIndex'])->name('Web.ContenidoAdmins');
 //     Route::get('/pedidosAdmin', [AdminController::class, 'PedidosIndex'])->name('Web.PedidosAdmins');
 // });
