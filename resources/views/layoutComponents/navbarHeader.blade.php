@@ -3,7 +3,7 @@
     <div class="container-fluid">
 
       <a class="navbar-brand p-0" href=" {{ route('Web.HomeInfo') }}">
-          <img src="{{asset('images/logo.png')}}" class="logo" alt="logo">
+          <img src="{{asset('images/logos/logo2.png')}}" class="width150" alt="logo">
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,11 +14,11 @@
         <ul class="navbar-nav ms-auto">
 
           <li class="nav-item">
-            <a class="nav-link active text-light" href=" {{ route('Web.CompanysInfo') }}">Empresas</a>
+            <a class="nav-link active text-light" href=" {{ route('Web.BusinessInfo') }}">Empresas</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active text-light" href=" {{ route('Web.UsersInfo') }}">Usuarios</a>
+            <a class="nav-link active text-light" href=" {{ route('Web.MembersInfo') }}">Usuarios</a>
           </li>
 
           <li class="nav-item">

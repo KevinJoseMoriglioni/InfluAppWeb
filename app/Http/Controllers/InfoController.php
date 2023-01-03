@@ -7,8 +7,9 @@ use Illuminate\Http\Request;
 class InfoController extends Controller
 {
     public function PreHome(){ return view('pages/info/preHome'); }
-    public function Companys(){ return view('pages/info/companys'); }
-    public function Users(){ return view('pages/info/users'); }
+    public function Home(){ return view('pages/info/Home'); }
+    public function Business(){ return view('pages/info/business'); }
+    public function Members(){ return view('pages/info/members'); }
     public function Subscriptions(){ return view('pages/info/subscriptions'); }
     public function Team(){ return view('pages/info/team'); }
     public function FrequentQuestions(){ return view('pages/info/frequentQuestions'); }

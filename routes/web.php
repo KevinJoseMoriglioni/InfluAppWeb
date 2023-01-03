@@ -3,9 +3,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\{InfoController};
 // use App\Http\Controllers\Auth\{LoginController, RegisterController};
 
-Route::get('/',  [InfoController::class, "PreHome"])->name('Web.PreHome');
-Route::get('/companys',  [InfoController::class, "Companys"])->name('Web.CompanysInfo');
-Route::get('/users',  [InfoController::class, "Users"])->name('Web.UsersInfo');
+Route::get('/',  [InfoController::class, "PreHome"])->name('Web.PreHomeInfo');
+Route::get('/home',  [InfoController::class, "Home"])->name('Web.HomeInfo');
+Route::get('/business',  [InfoController::class, "Business"])->name('Web.BusinessInfo');
+Route::get('/members',  [InfoController::class, "Members"])->name('Web.MembersInfo');
 Route::get('/subscriptions',  [InfoController::class, "Subscriptions"])->name('Web.SubscriptionsInfo');
 Route::get('/team',  [InfoController::class, "Team"])->name('Web.TeamInfo');
 Route::get('/frequentQuestions',  [InfoController::class, "FrequentQuestions"])->name('Web.FrequentQuestionsInfo');
