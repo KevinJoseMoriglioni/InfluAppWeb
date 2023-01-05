@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @charset "UTF-8";
-* {
-  border: solid black 1px;
-}
-
 .col-center {
   float: none;
   margin: 0 auto;
@@ -21,25 +17,25 @@
 
 .btni-primary {
   border-radius: 20px !important;
-  background-color: rgb(248, 246, 246) !important;
-  color: rgb(33, 92, 255) !important;
+  background-color: #4199f9 !important;
+  color: white !important;
   width: 150px;
 }
 
 .btni-secundary {
   border-radius: 20px !important;
   background-color: transparent !important;
-  color: white !important;
+  color: #4199f9 !important;
   width: 150px;
-  border: solid white 1px !important;
+  border: solid #4199f9 1px !important;
 }
 
 .width150 {
   width: 150px;
 }
 
-.height100 {
-  height: 100px;
+.height150 {
+  height: 150px;
 }
 
 .bg-primary {
@@ -47,7 +43,6 @@
 }
 
 .bg-preHome {
-  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/8313c355364493.5cba37a413ecc.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

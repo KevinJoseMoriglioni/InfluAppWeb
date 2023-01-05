@@ -1,7 +1,7 @@
 @extends('layouts.info')
-    @section('title',"Subscriptions")
+    @section('title',"Memberships")
     @section('content')
     <div class="container">
-        <h1>Suscripciones</h1>
+        <h1>Memberships</h1>
     </div>
     @endsection

@@ -12,38 +12,26 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
-
-          <li class="nav-item">
-            <a class="nav-link active text-light" href=" {{ route('Web.BusinessInfo') }}">Empresas</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link active text-light" href=" {{ route('Web.MembersInfo') }}">Usuarios</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link active text-light" href=" {{ route('Web.SubscriptionsInfo') }}">Suscripciones</a>
-          </li>
-
+          
           <li class="nav-item dropdown">
 
             <a class="nav-link dropdown-toggle active text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Nosotros
+                About Influapp
             </a>
 
             <ul class="dropdown-menu bg-primary p-0" aria-labelledby="navbarDropdown">
                 <li>
-                    <a class="dropdown-item text-light" href=" {{ route('Web.TeamInfo') }}">Equipo</a>
+                    <a class="dropdown-item text-light" href="#">WhitePaper</a>
                 </li>
-                <li>
+                {{-- <li>
                   <a class="dropdown-item text-light" href=" {{ route('Web.FrequentQuestionsInfo') }}">Preguntas frecuentes</a>
-                </li>
+                </li> --}}
                 <li>
-                  <a class="dropdown-item text-light" href=" {{ route('Web.ContactInfo') }}">Contacto</a>
+                  <a class="dropdown-item text-light" href=" {{ route('Web.ContactInfo') }}">Contact us</a>
                 </li>
-                <li>
+                {{-- <li>
                   <a class="dropdown-item text-light" href=" {{ route('Web.BlogInfo') }}">Blog</a>
-                </li>
+                </li> --}}
                 {{-- <li>
                     <hr class="dropdown-divider">
                 </li> --}}
@@ -52,11 +40,15 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active text-light" href=" {{ route('Web.InfluTokenInfo') }}">Influ token</a>
+            <a class="nav-link active text-light" href=" {{ route('Web.BusinessInfo') }}">Business</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active text-light" href=" {{ route('Web.AmbassadorInfo') }}">Embajadores</a>
+            <a class="nav-link active text-light" href=" {{ route('Web.UsersInfo') }}">Users</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active text-light" href=" {{ route('Web.MembershipsInfo') }}">Memberships</a>
           </li>
         </ul>
 
